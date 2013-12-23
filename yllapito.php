@@ -19,6 +19,9 @@
 		require ("inc/parametrit.inc");
 	}
 
+	if( $toim==='valuu' )
+		die('Valuuttojen ylläpito on siirretty paikkaan X!');
+
 	if (function_exists("js_popup")) {
 		echo js_popup(-100);
 	}
